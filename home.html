@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Animal CarDealer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Home Page -->
+    <div class="container">
+        <header>
+            <h1 class="logo">🚗 Animal CarDealer</h1>
+            <nav class="navbar">
+                <a href="catalog.html"><button>Catalog</button></a> <!-- Catalogページへのリンク -->
+                <button onclick="switchTab('orders')">Orders</button>
+                <a href="staff.html"><button>Staff</button></a> <!-- Staffページへのリンク -->
+            </nav>
+        </header>
+        
+        <section class="filter-section">
+            <h2>Filter by Manufacturer</h2>
+            <button onclick="filterCars('all')">All</button>
+            <button onclick="filterCars('Toyota')">Toyota</button>
+            <button onclick="filterCars('Ferrari')">Ferrari</button>
+        </section>
+        <section class="car-list">
+            <!-- 車両の情報はここには表示しません -->
+        </section>
+    </div>
+
+    <script src="home.html"></script>
+</body>
+</html>

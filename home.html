@@ -13,23 +13,25 @@
         <header>
             <h1 class="logo">🚗 Animal CarDealer</h1>
             <nav class="navbar">
-                <a href="catalog.html"><button>Catalog</button></a> <!-- Catalogページへのリンク -->
+                <button onclick="switchTab('inventory')">Catalog</button>
                 <button onclick="switchTab('orders')">Orders</button>
-                <a href="staff.html"><button>Staff</button></a> <!-- Staffページへのリンク -->
+                <button onclick="switchTab('staff')">Staff</button>
             </nav>
         </header>
-        
-        <section class="filter-section">
+
+        <!-- Remove the Filter Section -->
+        <!-- <section class="filter-section">
             <h2>Filter by Manufacturer</h2>
             <button onclick="filterCars('all')">All</button>
             <button onclick="filterCars('Toyota')">Toyota</button>
             <button onclick="filterCars('Ferrari')">Ferrari</button>
-        </section>
+        </section> -->
+
         <section class="car-list">
-            <!-- 車両の情報はここには表示しません -->
+            <!-- Car items will be dynamically inserted here -->
         </section>
     </div>
 
-    <script src="home.html"></script>
+    <script src="home.js"></script>
 </body>
 </html>

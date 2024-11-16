@@ -11,25 +11,22 @@
     <!-- Catalog Page -->
     <div class="container">
         <header>
-            <h1 class="logo">🚗 Animal CarDealer</h1>
+            <h1 class="logo">🚗 Animal CarDealer - Catalog</h1>
             <nav class="navbar">
-                <button onclick="switchTab('home')">Home</button>
-                <button onclick="switchTab('orders')">Orders</button>
-                <button onclick="switchTab('staff')">Staff</button>
+                <button onclick="window.location.href='../home.html'">Home</button>
+                <button onclick="window.location.href='../staff/staff.html'">Staff</button>
             </nav>
         </header>
         
-        <h2>Catalog</h2>
-        
-        <section class="filter-section">
-            <h3>Filter by Manufacturer</h3>
-            <button onclick="filterCars('all')">All</button>
-            <button onclick="filterCars('Toyota')">Toyota</button>
-            <button onclick="filterCars('Ferrari')">Ferrari</button>
-        </section>
-
         <section class="car-list">
-            <!-- Car items will be dynamically inserted here -->
+            <h2>Our Cars</h2>
+            <ul>
+                <li>LAFERRARI APERTA - ¥100,000,000</li>
+                <li>488スパイダー - ¥44,000,000</li>
+                <li>LAFERRARI - ¥80,000,000</li>
+                <li>ふぇらーり - ¥50,000,000</li>
+                <li>SF90 - ¥60,000,000</li>
+            </ul>
         </section>
     </div>
 

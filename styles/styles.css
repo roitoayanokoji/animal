@@ -1,3 +1,4 @@
+/* styles.css */
 * {
     margin: 0;
     padding: 0;
@@ -23,16 +24,23 @@ body {
     border-radius: 8px;
 }
 
-.logo {
-    font-size: 1.5em;
-    color: #f0f0f5;
-    margin-bottom: 10px;
-}
-
 header {
     display: flex;
+    justify-content: space-between; /* 左側にロゴ、右側にナビゲーション */
     align-items: center;
-    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 80px; /* ロゴの幅を調整 */
+    height: 80px; /* 高さも調整 */
+    border-radius: 10px; /* 角を丸くする */
+    margin-right: 10px;
 }
 
 .navbar {
@@ -53,49 +61,14 @@ header {
     background-color: #0056b3;
 }
 
-.staff-list {
+.car-list, .staff-list {
     margin-top: 20px;
-    text-align: center;
 }
 
-.staff-member {
-    margin-bottom: 15px;
+.car-list ul, .staff-list ul {
+    list-style-type: none;
 }
 
-.go-to-catalog {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 150px;
-    margin: 20px auto;
-}
-
-.go-to-catalog:hover {
-    background-color: #0056b3;
-}
-
-.filter-section {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.car-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 20px;
-    justify-content: center;
-}
-
-.car-item {
-    background-color: #333;
-    padding: 15px;
-    border-radius: 5px;
-    width: 200px;
-    text-align: center;
+h1, h2 {
+    color: #f0f0f5;
 }

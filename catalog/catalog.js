@@ -1,7 +1,6 @@
 // 車両データ
 const cars = [
     { manufacturer: 'Toyota', model: 'GR86', price: '5,000,000€' },
-    { manufacturer: 'Ferrari', model: '488 Pista Spider', price: '30,000,000€' },
     { manufacturer: 'Ferrari', model: 'LaFerrari Aperta', price: '¥100,000,000' },
     { manufacturer: 'Ferrari', model: '488 スパイダー', price: '¥44,000,000' },
     { manufacturer: 'Ferrari', model: 'LaFerrari', price: '¥80,000,000' },
